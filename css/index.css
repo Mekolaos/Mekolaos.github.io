@@ -1,0 +1,16 @@
+#header-text {
+    color: #37474f;
+}
+#B-Image {
+    height: 600px;
+    background: rgb(9,105,121);
+    background: linear-gradient(0deg, rgba(9,105,121,1) 0%, rgba(9,64,121,1) 17%, rgba(0,212,255,1) 100%);
+}
+
+.T-Margin-10 {
+    margin-top: 10%;
+}
+
+.noMarg {
+    margin: 0;
+}
