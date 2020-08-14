@@ -1,10 +1,26 @@
+@font-face {
+    font-family: "Code";
+    src: url(../src/fonts/Rounded_Elegance.ttf);
+}
+
 #header-text {
     color: #37474f;
 }
+
+.CodeText {
+    font-family: "Code";
+    color: #37474f;
+}
+
 #B-Image {
-    height: 600px;
-    background: rgb(9,105,121);
-    background: linear-gradient(0deg, rgba(9,105,121,1) 0%, rgba(9,64,121,1) 17%, rgba(0,212,255,1) 100%);
+    height: 30em;
+    /* background: rgb(9,105,121); */
+    /* background: linear-gradient(0deg, rgba(9,105,121,1) 0%, rgba(9,64,121,1) 17%, rgba(0,212,255,1) 100%); */
+    background-color: darkgoldenrod;
+}
+#B-white {
+    height: 30em;
+    background-color: whitesmoke;
 }
 
 .T-Margin-10 {
@@ -13,4 +29,25 @@
 
 .noMarg {
     margin: 0;
+}
+.noMargBot {
+    margin-bottom: 0;
+}
+
+#big-name {
+    font-size: 4em;
+    padding: 0;
+}
+
+#hello {
+    font-size: 1.5em;
+    padding: 0;
+}
+
+#Presentation {
+    margin-top: 8em;
+}
+
+.no-shadow {
+    box-shadow: none!important;
 }
