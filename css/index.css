@@ -51,3 +51,55 @@
 .no-shadow {
     box-shadow: none!important;
 }
+
+/* New clean css */
+
+/* CSS Reset */
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    /* background-color: #303030; */
+    background-image: url("/src/images/bg.jpg");
+    font-family: 'Kanit', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+/* Styles */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    padding: 0 1.5rem;
+    background-color: #00000055;
+    backdrop-filter: blur(15px);
+}
+
+#home-button {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    margin: 0 8px;
+}
